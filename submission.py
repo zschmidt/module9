@@ -1,1 +1,1 @@
-single quotes scare me
+'single quotes'
