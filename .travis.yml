@@ -1,0 +1,19 @@
+language: python
+
+cache:
+  pip
+
+python:
+  - "3.6"
+# command to install dependencies
+install:
+  "pip install pandas"
+# # command to run tests
+script: 
+  python validation.py submission.py
+
+notifications:
+  email:
+    on_success: never
+    on_failure: never
+
